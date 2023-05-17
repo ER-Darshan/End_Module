@@ -1,0 +1,29 @@
+Buisness Entities
+Admin
+	username
+	userid
+	mail
+	password
+Candidate
+	candidate_Id
+	candidate_name
+	Candidate_Address
+	candidate_email
+Employer (Organizations)
+	name
+	id
+	Address
+Profile
+	candidate_id
+	name
+	socials
+	qualifiaction
+	stream
+Anonymous_user
+Job
+	requirements
+	title
+	designation
+		
+	
+	
