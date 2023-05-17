@@ -1,0 +1,49 @@
+TITLE: SRS For Employee Recruitment System
+
+Team:end user,Admin,Employers,Maitinance staff
+
+Purpose: Purpose of this application is to to make possible for organizations to 
+post their staffing requirements easily and view profiles of intrested canidates and 
+short list them according to their requirement.also make the job of finding jobs for 
+candidates easy and apply for it as per their requirement.
+
+Scope: 
+1.with this application candidates will be able to search for the job that they want to apply
+for as per their need from anywhere with the help of any device available.
+2.with this application Employeers will be able to post their sataffing requirements easily and
+view profiles of intested candidates.
+3.Anonymus user will be able to see the overview of the website and can furthur register for additional
+features.
+4.Admin will be able to manage all the features of the system as per his reuirement.
+
+Definations:
+Candidate:user searching for the job
+Employeer: Organization looking for staff.
+Requirements:
+ 1.Functional Requirements:
+	A login page will be provided for the user of two types (Employeer or Candidate) to where the new user can register or if already a user 
+he or she can signin with the previously provided credentials.Also Anynymous user will be able to skip the sign
+in but restriction will be applied on some functions util furthur login.       
+	
+Candidate login:
+Candidate will be required to fill profile information such as their Education qualification ,personal information,their past work Experience etc,cv ,socials : Git link,LinkedIn Account Details
+. 
+
+Basic form will asked to fill .which will contain filter conditions sucha as field of work,city they want to search the job in ,Expected salary	
+
+	On Dashboard Search bar will be available which will include filters such as 
+		)search job according to designation intrested 
+ 		)search job according to city intrested 
+		)search job according to Range of Salary Expected etc.
+
+Employeer login(Organization):
+ user will be required to fill information such as Organization name,Orgnization Field,Organiztion Adress etc. and Autication of will be done accordingly.
+After the the verifiaction of information provided User will be able to fill out the info about their requirement of candidate.the application will  filter out the information of candidates req.through a through search from the DataBase Available and will provide information to the user.
+
+ADMIN LOGIN: Special high security credentials will be provided for Admin Login,2-Step Verifiaction will be done on the provided information.Adim will be the Solye able to Handle All Application Operations.
+
+NON-Functional Requirements:
+Availability:Application will be available for 24*7 throughout.
+Maintainac:Third Party will be Consulted for the Maintainance of Application,Backup of Application Data wil be available on Virtual Server in case Of system crash.
+Portablitity:Application will be accsessible through any device with internet connection in order to give use ease of Access.
+Fuctionality:Application will be Able to withstand high load and will perform smoothly.
